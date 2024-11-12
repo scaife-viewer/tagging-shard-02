@@ -1,0 +1,728 @@
+1	0	LIBER	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	lIBER	ROOT	0
+1	1	I	NUM	number		I	nummod	0
+1	2	(	PUNCT	punc		(	punct	3
+1	3	scriptus	VERB	verb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	scribo	acl	0
+1	4	a.	PUNCT	punc		a.	obl	3
+1	5	356	NUM	number		356	nummod	4
+1	6	)	PUNCT	punc		)	punct	3
+1	7	.	PUNCT	punc		.	punct	0
+1	8	Praefatio	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	praefatio	ROOT	8
+1	9	=	PUNCT	punc		=	punct	8
+1	10	Series	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	series	nmod	8
+1	11	B	NOUN	NOUN		Bornellum	nummod	10
+1	12	I	NUM	number		I	nummod	10
+1	13	(	PUNCT	punc		(	punct	15
+1	14	supra	ADV	adverb		supra	advmod	15
+1	15	p.	PUNCT	punc		p.	nmod	10
+1	16	98—102	NUM	number		98—102	nummod	15
+1	17	)	PUNCT	punc		)	punct	10
+1	18	.	PUNCT	punc		.	punct	8
+1	19	De	ADP	preposition		de	case	20
+1	20	synodo	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	synodus	ROOT	20
+1	21	Arelatensi	ADJ	adjective	Case=Abl|Gender=Fem|Number=Sing	Arelatensis	amod	20
+1	22	et	CCONJ	conjunction		et	cc	24
+1	23	de	ADP	preposition		de	case	24
+1	24	exsilio	NOUN	noun	Case=Abl|Gender=Neut|Number=Sing	exsilium	conj	20
+1	25	Paulini	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Paulinus	amod	26
+1	26	episcopi	NOUN	noun	Case=Gen|Gender=Masc|Number=Sing	episcopus	nmod	24
+1	27	Treuirensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Treuirensis	nmod	26
+1	28	(	PUNCT	punc		(	nsubj	29
+1	29	deest	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	desum	parataxis	20
+1	30	,	PUNCT	punc		,	punct	31
+1	31	cf	ADJ	noun		cf	conj	29
+1	32	.	PUNCT	punc		.	punct	31
+1	33	Studien	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Studien	ROOT	33
+1	34	1	NUM	number		1	nummod	33
+1	35	83	NUM	number		83	nummod	34
+1	36	)	PUNCT	punc		)	punct	33
+1	37	.	PUNCT	punc		.	punct	33
+1	38	∗∗∗	PUNCT	adverb		∗∗∗	dep	33
+1	39	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	nmod	38
+1	40	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	38
+1	41	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	X	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	38
+1	42	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	38
+1	43	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	42
+1	44	Sardicensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Sardicensis	nmod	43
+1	45	Orientalium	ADJ	adjective	Case=Gen|Gender=Neut|Number=Plur	orientalis	nmod	44
+1	46	cum	ADP	preposition		cum	case	47
+1	47	symbolo	NOUN	noun	Case=Abl|Gender=Neut|Number=Sing	symbolum	nmod	42
+1	48	et	CCONJ	conjunction		et	cc	49
+1	49	nominibus	NOUN	noun	Case=Abl|Gender=Neut|Number=Plur	nomen	conj	47
+1	50	episcoporum	NOUN	noun	Case=Gen|Gender=Masc|Number=Plur	episcopus	nmod	49
+1	51	,	PUNCT	punc		,	punct	53
+1	52	qui	PRON	pronoun	Case=Nom|Gender=Masc|Number=Plur	qui	nsubj	53
+1	53	subscripserunt	VERB	verb	Mood=Ind|Number=Plur|Person=3|Tense=Perf|VerbForm=Fin|Voice=Act	subscribo	acl:relcl	47
+1	54	(	PUNCT	punc		(	nsubj:pass	58
+1	55	c.	PUNCT	punc		c.	punct	54
+1	56	9	NUM	number		9	nummod	55
+1	57	est	AUX	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	sum	aux:pass	58
+1	58	decurtatum	VERB	verb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	decurto	parataxis	33
+1	59	;	PUNCT	punc		;	punct	33
+1	60	deest	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	desum	ROOT	60
+1	61	narratio	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	narratio	nsubj	60
+1	62	de	ADP	preposition		de	case	63
+1	63	Paulo	ADJ	proper_noun	Case=Abl|Gender=Masc|Number=Sing	Paulus	nmod	61
+1	64	episcopo	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	episcopus	appos	63
+1	65	Constantinopolitano	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	constantinopolitanus	amod	64
+1	66	,	PUNCT	punc		,	punct	67
+1	67	d.	PUNCT	punc		d.	nmod	68
+1	68	Studien	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Studien	obj	60
+1	69	I	NUM	number		I	nummod	68
+1	70	184	NUM	number		184	nummod	69
+1	71	)	PUNCT	punc		)	punct	60
+1	72	—	PUNCT	punc		—	punct	73
+1	73	Ser.	PUNCT	noun		Ser.	punct	60
+1	74	A	ADP	preposition		Ab	case	75
+1	75	IV	NUM	number		IV	obl:arg	60
+1	76	(	PUNCT	punc		(	punct	77
+1	77	supra	ADV	adverb		supra	advmod	60
+1	78	p.	PUNCT	punc		p.	punct	77
+1	79	48	NUM	number		48	nummod	77
+1	80	-	PUNCT	punc		-	nummod	77
+1	81	78	NUM	number		78	nummod	77
+1	82	)	PUNCT	punc		)	punct	77
+1	83	.	PUNCT	punc		.	punct	60
+1	84	∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗	nmod	85
+1	85	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	ROOT	85
+1	86	∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗	nmod	85
+1	87	∗∗∗∗∗∗	NUM	adverb		∗∗∗∗∗∗	conj	85
+1	88	Uaria	ADJ	adjective	Case=Nom|Gender=Neut|Number=Plur	Uarius	amod	85
+1	89	ex	ADP	preposition		ex	case	90
+1	90	actis	NOUN	noun	Case=Abl|Gender=Neut|Number=Plur	actum	nmod	85
+1	91	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	90
+1	92	Sardicensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Sardicensis	nmod	96
+1	93	Occidentalium	ADJ	adjective	Case=Gen|Gender=Neut|Number=Plur	occidentalis	nmod	92
+1	94	,	PUNCT	punc		,	punct	96
+1	95	duae	NUM	number	Case=Nom|Gender=Fem|Number=Plur	duo	nummod	96
+1	96	epistulae	NOUN	noun	Case=Nom|Gender=Fem|Number=Plur	epistula	nmod	90
+1	97	Ualentis	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	ualeo	nmod	96
+1	98	et	CCONJ	conjunction		et	cc	99
+1	99	Ursacii	PROPN	noun	Case=Gen|Gender=Masc|Number=Sing	Ursacius	conj	97
+1	100	,	PUNCT	punc		,	punct	101
+1	101	symbolum	NOUN	noun	Case=Nom|Gender=Neut|Number=Sing	symbolum	parataxis	85
+1	102	Nicaenum	NOUN	noun	Case=Gen|Gender=Fem|Number=Plur	Nicaenus	nmod	101
+1	103	una	ADV	number		unus	case	105
+1	104	cum	ADP	preposition		cum	fixed	103
+1	105	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	nmod	85
+1	106	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	105
+1	107	(	PUNCT	punc		(	nsubj:pass	113
+1	108	n.	PUNCT	punc		n.	punct	107
+1	109	9	NUM	number		9	nummod	108
+1	110	c.	PUNCT	punc		c.	punct	109
+1	111	1	NUM	number		1	nummod	110
+1	112	est	AUX	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	sum	aux:pass	113
+1	113	decurtatum	VERB	verb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	decurto	parataxis	85
+1	114	;	PUNCT	punc		;	punct	85
+1	115	uidetur	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	uideo	ROOT	115
+1	116	enim	PART	particle		enim	discourse	115
+1	117	deesse	VERB	verb	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Inf|Voice=Act	desum	xcomp	115
+1	118	symbolum	NOUN	noun	Case=Nom|Gender=Neut|Number=Sing	symbolum	nsubj:pass	115
+1	119	Sirmiense	ADJ	verb	Case=Nom|Gender=Neut|Number=Sing	Sirmiense	acl	118
+1	120	atque	CCONJ	conjunction		atque	cc	121
+1	121	initium	NOUN	noun	Case=Nom|Gender=Neut|Number=Sing	initium	conj	119
+1	122	refutationis	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	refutatio	nmod	121
+1	123	,	PUNCT	punc		,	punct	124
+1	124	cf	X	adverb		cf	parataxis	115
+1	125	.	PUNCT	punc		.	punct	124
+1	126	supra	ADV	adverb		supra	ROOT	126
+1	127	p.	PUNCT	punc		p.	punct	126
+1	128	146	NUM	number		146	nummod	127
+1	129	.	PUNCT	punc		.	punct	126
+1	130	praeterea	ADV	adverb		praeterea	advmod	131
+1	131	excidit	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	excido	ROOT	131
+1	132	ante	ADP	preposition		ante	case	134
+1	133	primam	ADJ	adjective	Case=Acc|Gender=Fem|Number=Sing	primus	amod	134
+1	134	epistulam	NOUN	noun	Case=Acc|Gender=Fem|Number=Sing	epistula	obl	131
+1	135	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	134
+1	136	certe	ADV	adverb		certe	advmod	131
+1	137	textus	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	textus	nsubj	131
+1	138	Hilarii	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Hilarius	amod	137
+1	139	,	PUNCT	punc		,	punct	145
+1	140	quo	PRON	pronoun	Case=Abl|Gender=Masc|Number=Sing	qui	obl	145
+1	141	dispositionem	NOUN	noun	Case=Acc|Gender=Fem|Number=Sing	dispositio	obj	145
+1	142	textus	NOUN	noun	Case=Gen|Gender=Masc|Number=Sing	textus	nsubj	145
+1	143	narratiui	ADJ	adjective	Case=Gen|Gender=Masc|Number=Sing	narratiuus	amod	142
+1	144	insequentis	VERB	verb	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	insequor	acl	142
+1	145	indicabat	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Act	indico	acl:relcl	137
+1	146	,	PUNCT	punc		,	punct	147
+1	147	cf	X	conjunction		cf	conj	131
+1	148	.	PUNCT	punc		.	punct	147
+1	149	Studien	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	studien	ROOT	149
+1	150	I	NUM	number		I	nummod	149
+1	151	97	NUM	number		97	nummod	150
+1	152	)	PUNCT	punc		)	punct	155
+1	153	=	PUNCT	punc		=	punct	155
+1	154	Ser.	PUNCT	punc		Ser.	punct	153
+1	155	B	NOUN	NOUN		Bornellum	parataxis	149
+1	156	11	NUM	number		11	nummod	155
+1	157	(	PUNCT	punc		(	punct	159
+1	158	supra	ADV	adverb		supra	advmod	159
+1	159	p.	PUNCT	punc		p.	nmod	149
+1	160	103	NUM	number		103	nummod	159
+1	161	-	PUNCT	punc		-	nummod	159
+1	162	154	NUM	number		154	nummod	161
+1	163	)	PUNCT	punc		)	punct	161
+1	164	.	PUNCT	punc		.	punct	149
+1	165	Oratio	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	oratio	ROOT	165
+1	166	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	165
+1	167	Sardicensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Sardicensis	nmod	166
+1	168	Occidentalium	ADJ	adjective	Case=Gen|Gender=Masc|Number=Plur	occidentalis	nmod	167
+1	169	ad	ADP	preposition		ad	case	170
+1	170	Constantium	VERB	proper_noun	Case=Gen|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	constans	nmod	167
+1	171	imperatorem	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	imperator	appos	170
+1	172	una	ADV	adverb		una	case	174
+1	173	cum	ADP	preposition		cum	fixed	172
+1	174	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	obl	165
+1	175	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	174
+1	176	=	PUNCT	punc		=	punct	177
+1	177	Liber	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	Liber	conj	165
+1	178	,	PUNCT	punc		,	punct	181
+1	179	qui	PRON	pronoun	Case=Nom|Gender=Masc|Number=Sing	qui	nsubj:pass	181
+1	180	uulgo	ADV	adverb		uulgo	advmod	181
+1	181	dicitur	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	dico	acl:relcl	177
+1	182	I	NUM	number		I	obl	181
+1	183	ad	ADP	preposition		ad	case	184
+1	184	Constantium	VERB	proper_noun	Case=Gen|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	constans	nmod	182
+1	185	imperatorem	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	imperator	appos	184
+1	186	,	PUNCT	punc		,	punct	184
+1	187	1	NUM	number		1	nummod	184
+1	188	-	PUNCT	punc		-	nummod	184
+1	189	7	NUM	number		7	nummod	184
+1	190	(	PUNCT	punc		(	punct	193
+1	191	supra	ADV	adverb		supra	advmod	193
+1	192	p.	NOUN	punc		p.	punct	191
+1	193	181	NUM	number		181	dislocated	181
+1	194	-	PUNCT	punc		-	obl	181
+1	195	186	NUM	number		186	nummod	194
+1	196	)	PUNCT	punc		)	punct	177
+1	197	.	PUNCT	punc		.	punct	165
+1	198	I)e	ADP	punc		I)e	case	199
+1	199	synodo	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	synodus	ROOT	199
+1	200	Mediolanensi	ADJ	adjective	Case=Abl|Gender=Fem|Number=Sing	Mediolanensis	amod	199
+1	201	:	PUNCT	punc		:	punct	199
+1	202	textus	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	textus	ROOT	202
+1	203	narratiuus	ADJ	adjective	Case=Nom|Gender=Masc|Number=Sing	narratiuus	amod	202
+1	204	(	PUNCT	punc		(	punct	205
+1	205	decurtatus	VERB	verb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	decurto	acl	202
+1	206	in	ADP	ADP		in	case	207
+1	207	fine	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	finis	obl	205
+1	208	,	PUNCT	punc		,	punct	209
+1	209	cf	ADV	adverb		cf	conj	205
+1	210	.	PUNCT	punc		.	punct	209
+1	211	Studien	NOUN	noun	Case=Nom|Gender=Masc|Number=Plur	Studien	ROOT	211
+1	212	I	NUM	number		I	nummod	211
+1	213	149	NUM	number		149	nummod	212
+1	214	)	PUNCT	punc		)	punct	212
+1	215	=	PUNCT	punc		=	punct	216
+1	216	Liber	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	Liber	conj	211
+1	217	,	PUNCT	punc		,	punct	220
+1	218	qui	PRON	pronoun	Case=Nom|Gender=Masc|Number=Sing	qui	nsubj:pass	220
+1	219	uulgo	ADV	adverb		uulgo	advmod	220
+1	220	dicitur	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	dico	acl:relcl	216
+1	221	1	NUM	number		1	obl	220
+1	222	ad	ADP	preposition		ad	case	223
+1	223	Constantium	PROPN	noun	Case=Acc|Gender=Neut|Number=Sing	constans	obl	220
+1	224	,	PUNCT	punc		,	punct	225
+1	225	8	NUM	number		8	obl	216
+1	226	(	PUNCT	punc		(	punct	230
+1	227	supra	ADV	adverb		supra	case	230
+1	228	p.	PUNCT	punc		p.	punct	227
+1	229	186	NUM	number		186	nummod	227
+1	230	sq	NOUN	proper_noun		sq	nmod	225
+1	231	.	PUNCT	punc		.	punct	230
+1	232	)	PUNCT	punc		)	punct	234
+1	233	.	PUNCT	punc		.	punct	232
+1	234	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗	ROOT	234
+1	235	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	nmod	234
+1	236	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	234
+1	237	∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗	conj	234
+1	238	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	234
+1	239	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NUM	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	234
+2	0	\'LIBER	PUNCT	punc		\'LIBER	ROOT	0
+2	1	II	NUM	number		II	nummod	0
+2	2	(	PUNCT	punc		(	punct	3
+2	3	scriptus	VERB	noun	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	scribo	parataxis	0
+2	4	hieme	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	hiems	obl	3
+2	5	359/360	NUM	number		359/360	nummod	4
+2	6	)	PUNCT	punc		)	punct	4
+2	7	.	PUNCT	punc		.	punct	0
+2	8	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	ROOT	8
+2	9	De	ADP	preposition		De	case	10
+2	10	Liberio	PROPN	proper_noun	Case=Abl|Gender=Neut|Number=Sing	Liberio	nmod	8
+2	11	episcopo	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	episcopus	appos	10
+2	12	Romano	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	Romanus	amod	11
+2	13	:	PUNCT	punc		:	punct	8
+2	14	Epistula	NOUN	noun	Case=Acc|Gender=Fem|Number=Sing	epistula	ROOT	14
+2	15	dubia	ADJ	adjective	Case=Acc|Gender=Fem|Number=Sing	dubius	amod	14
+2	16	Liberio	VERB	noun	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	Liberio	nmod	14
+2	17	ad	ADP	preposition		ad	case	19
+2	18	Orientales	ADJ	adjective	Case=Acc|Gender=Masc|Number=Plur	orientalis	amod	19
+2	19	episcopos	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	episcopus	obl	20
+2	20	Studens	VERB	verb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	studeo	acl	14
+2	21	paci	NOUN	noun	Case=Dat|Gender=Fem|Number=Sing	pax	obl:arg	20
+2	22	una	ADV	number		unus	case	24
+2	23	cum	ADP	preposition		cum	fixed	22
+2	24	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	obl	20
+2	25	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	24
+2	26	(	PUNCT	punc		(	punct	27
+2	27	deest	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	desum	acl:relcl	14
+2	28	textus	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	textus	nsubj	27
+2	29	narratiuus	ADJ	adjective	Case=Nom|Gender=Masc|Number=Sing	narratiuus	amod	28
+2	30	epistulae	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	epistula	obl:arg	31
+2	31	praemissus	VERB	verb	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	praemitto	acl	28
+2	32	,	PUNCT	punc		,	punct	33
+2	33	cf	ADV	adverb		cf	conj	27
+2	34	.	PUNCT	punc		.	punct	33
+2	35	Studien	NOUN	noun	Case=Nom|Gender=Neut|Number=Plur	Studien	dep	40
+2	36	I	NUM	number		I	nummod	35
+2	37	167	NUM	number		167	flat	36
+2	38	)	PUNCT	punc		)	punct	35
+2	39	=	PUNCT	punc		=	punct	40
+2	40	Series	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	series	ROOT	40
+2	41	B	NOUN	NOUN		Bornellum	nummod	40
+2	42	III	NUM	number		III	nummod	41
+2	43	(	PUNCT	punc		(	punct	47
+2	44	supra	ADV	adverb		supra	advmod	47
+2	45	p.	PUNCT	punc		p.	punct	44
+2	46	155	NUM	number		155	nummod	44
+2	47	sq	NOUN	proper_noun		sq	nmod	40
+2	48	.	PUNCT	punc		.	punct	47
+2	49	)	PUNCT	punc		)	ROOT	49
+2	50	.	PUNCT	punc		.	punct	49
+2	51	Epistula	NOUN	noun	Case=Acc|Gender=Fem|Number=Sing	epistula	obj	56
+2	52	Liberii	PROPN	noun	Case=Gen|Gender=Masc|Number=Sing	Liberius	nmod	51
+2	53	ad	ADP	preposition		ad	case	55
+2	54	Constantium	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Plur	constans	nmod	55
+2	55	imperatorem	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	imperator	nmod	51
+2	56	Obsecro	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	obsecro	ROOT	56
+2	57	=	PUNCT	punc		=	punct	58
+2	58	Ser.	PUNCT	punc		Ser.	punct	56
+2	59	A	ADP	preposition		a	case	60
+2	60	VII	NUM	number		VII	nummod	58
+2	61	(	PUNCT	punc		(	punct	62
+2	62	supra	ADV	adverb		supra	advmod	56
+2	63	p.	PUNCT	punc		p.	punct	62
+2	64	89	NUM	number		89	nummod	62
+2	65	-	PUNCT	punc		-	nummod	62
+2	66	93	NUM	number		93	nummod	62
+2	67	)	PUNCT	punc		)	punct	62
+2	68	.	PUNCT	punc		.	punct	56
+2	69	∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗	ROOT	69
+2	70	∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗	nmod	69
+2	71	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗	conj	69
+2	72	∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗	conj	69
+2	73	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	69
+2	74	Epistulae	NOUN	noun	Case=Nom|Gender=Fem|Number=Plur	Epistula	nmod	69
+2	75	Liberii	ADJ	noun	Case=Gen|Gender=Neut|Number=Sing	Liberius	nmod	74
+2	76	Quamuis	SCONJ	conjunction		Quamuis	mark	77
+2	77	sub	ADP	preposition		sub	case	86
+2	78	,	PUNCT	punc		,	punct	77
+2	79	Nolo	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	nolo	conj	69
+2	80	te	PRON	pronoun	Case=Acc|Number=Sing|Person=2	tu	obj	79
+2	81	rex	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	rex	xcomp	79
+2	82	parte	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	pars	obl	79
+2	83	)	PUNCT	punc		)	punct	79
+2	84	,	PUNCT	punc		,	punct	86
+2	85	Inter	ADP	preposition		Inter	case	86
+2	86	haec	DET	adjective	Case=Acc|Gender=Neut|Number=Plur	hic	obl	69
+2	87	(	PUNCT	punc		(	punct	89
+2	88	ex	ADP	preposition		ex	case	89
+2	89	parte	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	pars	obl	86
+2	90	)	PUNCT	punc		)	punct	89
+2	91	et	CCONJ	conjunction		et	cc	92
+2	92	epistulae	NOUN	noun	Case=Nom|Gender=Fem|Number=Plur	epistula	conj	86
+2	93	dubiae	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	dubius	amod	92
+2	94	Pro	ADP	preposition		Pro	case	95
+2	95	deifico	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	deifico	obl	86
+2	96	,	PUNCT	punc		,	punct	98
+2	97	Quia	SCONJ	conjunction		Quia	mark	98
+2	98	scio	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	scio	advcl	101
+2	99	,	PUNCT	punc		,	punct	98
+2	100	Non	PART	particle		Non	advmod:neg	101
+2	101	doceo	VERB	verb	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	doceo	conj	69
+2	102	una	ADV	number		unus	case	104
+2	103	cum	ADP	preposition		cum	fixed	102
+2	104	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	obl	101
+2	105	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	104
+2	106	=	PUNCT	punc		=	punct	107
+2	107	Ser.	PUNCT	noun		Ser.	case	104
+2	108	B	NOUN	NOUN		Bornellum	ccomp	101
+2	109	VII	NUM	number		VII	nummod	108
+2	110	(	PUNCT	punc		(	punct	112
+2	111	supra	ADV	adverb		supra	advmod	112
+2	112	p.	PUNCT	punc		p.	dislocated	101
+2	113	164—173	NUM	number		164—173	nummod	112
+2	114	)	PUNCT	punc		)	punct	101
+2	115	.	PUNCT	punc		.	punct	69
+2	116	∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗	ROOT	116
+2	117	∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗	conj	116
+2	118	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	116
+2	119	De	ADP	preposition		De	case	120
+2	120	synodi	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	synodus	nmod	116
+2	121	Ariminensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Ariminensis	amod	120
+2	122	et	CCONJ	conjunction		et	cc	123
+2	123	Seleuciensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Seleuciensus	conj	121
+2	124	:	PUNCT	punc		:	punct	116
+2	125	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	ROOT	125
+2	126	Constantii	PROPN	noun	Case=Gen|Gender=Masc|Number=Sing	Constantium	nmod	127
+2	127	imperatoris	NOUN	noun	Case=Gen|Gender=Masc|Number=Sing	imperator	nmod	125
+2	128	ad	ADP	preposition		ad	case	129
+2	129	episcopos	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	episcopus	nmod	125
+2	130	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	129
+2	131	Ariminensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Ariminensis	amod	130
+2	132	=	PUNCT	punc		=	punct	133
+2	133	Ser.	PUNCT	noun		Ser.	punct	125
+2	134	A	ADP	preposition		Ab	case	135
+2	135	VIII	NUM	number		VIII	nmod	125
+2	136	(	PUNCT	punc		(	punct	140
+2	137	supra	ADV	adverb		supra	advmod	140
+2	138	p.	PUNCT	punc		p.	punct	137
+2	139	93	NUM	number		93	nummod	140
+2	140	sq	NOUN	proper_noun		sq	nmod	125
+2	141	.	PUNCT	punc		.	punct	140
+2	142	)	PUNCT	punc		)	punct	143
+2	143	.	PUNCT	punc		.	ROOT	143
+2	144	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	X	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	nsubj	146
+2	145	Ex	ADP	preposition		Ex	case	146
+2	146	actis	NOUN	noun	Case=Abl|Gender=Neut|Number=Plur	actum	ROOT	146
+2	147	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	146
+2	148	Ariminensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Ariminensis	amod	147
+2	149	:	PUNCT	punc		:	punct	146
+2	150	Definitio	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	definitio	ROOT	150
+2	151	episcoporum	NOUN	noun	Case=Gen|Gender=Masc|Number=Plur	episcopus	nmod	150
+2	152	homousianorum	ADJ	noun	Case=Gen|Gender=Masc|Number=Plur	homousianus	nmod	151
+2	153	,	PUNCT	punc		,	punct	154
+2	154	textus	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	textus	conj	150
+2	155	narratiuus	ADJ	adjective	Case=Nom|Gender=Masc|Number=Sing	narratiuus	amod	154
+2	156	,	PUNCT	punc		,	punct	157
+2	157	damnatio	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	damnatio	conj	150
+2	158	haereticorum	NOUN	noun	Case=Gen|Gender=Masc|Number=Plur	haereticus	nmod	157
+2	159	=	PUNCT	punc		=	punct	160
+2	160	Ser.	PUNCT	noun		Ser.	punct	150
+2	161	A	ADP	preposition		Ab	case	162
+2	162	IX	NUM	number		IX	nummod	160
+2	163	(	PUNCT	punc		(	punct	166
+2	164	supra	ADV	adverb		supra	case	166
+2	165	p.	PUNCT	punc		p.	punct	164
+2	166	95—97	NUM	number		95—97	nmod	150
+2	167	)	PUNCT	punc		)	punct	150
+2	168	.	PUNCT	punc		.	punct	150
+2	169	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	advcl	150
+2	170	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗	appos	169
+2	171	∗∗	PUNCT	adverb		∗∗	conj	169
+2	172	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	169
+2	173	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	169
+2	174	∗	PUNCT	adverb		∗	advmod:emph	169
+2	175	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗	conj	169
+2	176	∗	PUNCT	adverb		∗	conj	169
+2	177	∗	PUNCT	conjunction		∗	advmod:emph	169
+2	178	x	NUM	number		x	conj	169
+2	179	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	169
+2	180	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	179
+2	181	Ariminensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Ariminensis	amod	180
+2	182	ad	ADP	preposition		ad	case	184
+2	183	Constantium	PROPN	noun	Case=Gen|Gender=Masc|Number=Plur	constans	nmod	184
+2	184	imperatorem	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	imperator	nmod	179
+2	185	et	CCONJ	conjunction		et	cc	186
+2	186	gesta	VERB	verb	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	gero	conj	169
+2	187	Nicaena	PROPN	adjective	Case=Nom|Gender=Fem|Number=Sing	Nicaenus	amod	186
+2	188	una	ADV	adverb		unus	case	190
+2	189	cum	ADP	preposition		cum	fixed	188
+2	190	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	nmod	169
+2	191	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	190
+2	192	(	PUNCT	punc		(	punct	193
+2	193	sequebatur	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	sequor	parataxis	150
+2	194	forte	ADV	adverb		forte	advmod	193
+2	195	symbolum	NOUN	noun	Case=Nom|Gender=Neut|Number=Sing	symbolum	nsubj	193
+2	196	Nicaena	ADJ	adjective	Case=Nom|Gender=Fem|Number=Sing	Nicaenus	amod	195
+2	197	Thraciae	PROPN	proper_noun	Case=Gen|Gender=Fem|Number=Sing	Thracia	nmod	198
+2	198	propositum	VERB	verb	Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	propono	acl	195
+2	199	,	PUNCT	punc		,	punct	200
+2	200	cf	ADV	adverb		cf	parataxis	193
+2	201	.	PUNCT	punc		.	punct	200
+2	202	Studien	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	studien	ROOT	202
+2	203	I	NUM	number		I	case	205
+2	204	76	NUM	number		76	nummod	205
+2	205	sq	NOUN	proper_noun		sq	nmod	202
+2	206	.	PUNCT	punc		.	punct	205
+2	207	)	PUNCT	punc		)	punct	209
+2	208	=	PUNCT	punc		=	punct	209
+2	209	Ser.	PUNCT	noun		Ser.	ROOT	209
+2	210	A	ADP	preposition		a	case	211
+2	211	V	NUM	number		V	nummod	209
+2	212	supra	ADV	adverb		supra	advmod	211
+2	213	p.	PUNCT	punc		p.	punct	212
+2	214	78—86	NUM	number		78—86	nummod	212
+2	215	)	PUNCT	punc		)	punct	209
+2	216	.	PUNCT	punc		.	punct	209
+2	217	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	209
+2	218	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗	nmod	217
+2	219	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	217
+2	220	episcoporum	NOUN	noun	Case=Gen|Gender=Masc|Number=Plur	episcopus	nmod	219
+2	221	Arianorum	ADJ	noun	Case=Gen|Gender=Masc|Number=Plur	Arianus	amod	220
+2	222	,	PUNCT	punc		,	punct	224
+2	223	qui	PRON	pronoun	Case=Nom|Gender=Masc|Number=Plur	qui	nmod	224
+2	224	synodo	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	synodus	dep	209
+2	225	Ariminen	ADJ	proper_noun	Case=Abl|Gender=Fem|Number=Sing	Arimines	amod	224
+2	226	.	PUNCT	punc		.	punct	224
+2	227	i	NUM	number		i	nummod	228
+2	228	inter-	PUNCT	number		inter-	case	243
+2	229	■	ADV	adverb		■	advmod	228
+2	230	erant	AUX	verb	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	sum	cop	228
+2	231	,	PUNCT	punc		,	punct	234
+2	232	ad	ADP	preposition		ad	case	234
+2	233	Constantium	PROPN	noun	Case=Gen|Gender=Masc|Number=Plur	constans	nmod	234
+2	234	imperatorem	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	imperator	obl	228
+2	235	=	PUNCT	punc		=	punct	236
+2	236	Ser.	PUNCT	noun		Ser.	punct	228
+2	237	A	ADP	preposition		ab	case	238
+2	238	VI	NUM	number		uis	obl	228
+2	239	(	PUNCT	punc		(	punct	241
+2	240	supra	ADV	adverb		supra	advmod	241
+2	241	p.	PUNCT	punc		p.	punct	228
+2	242	87	NUM	number		87	nummod	243
+2	243	sq	NOUN	proper_noun		sq	ROOT	243
+2	244	.	PUNCT	punc		.	punct	243
+2	245	)	PUNCT	punc		)	punct	247
+2	246	.	PUNCT	punc		.	punct	245
+2	247	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	ROOT	247
+2	248	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	X	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	247
+2	249	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	advmod:emph	247
+2	250	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	conj	247
+2	251	legatorum	NOUN	noun	Case=Gen|Gender=Masc|Number=Plur	legatus	nmod	250
+2	252	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	251
+2	253	Seleuciensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Seleuciensus	amod	252
+2	254	ad	ADP	preposition		ad	case	255
+2	255	legatos	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	legatus	nmod	250
+2	256	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	255
+2	257	Ariminensis	ADJ	verb	Case=Gen|Gender=Fem|Number=Sing	Ariminensis	amod	256
+2	258	una	ADV	number		unus	case	260
+2	259	cum	ADP	preposition		cum	fixed	258
+2	260	textu	NOUN	noun	Case=Abl|Gender=Masc|Number=Sing	textus	nmod	247
+2	261	narratiuo	ADJ	adjective	Case=Abl|Gender=Masc|Number=Sing	narratiuus	amod	260
+2	262	(	PUNCT	punc		(	punct	265
+2	263	ante	ADP	preposition		ante	case	264
+2	264	epistulam	NOUN	noun	Case=Acc|Gender=Fem|Number=Sing	epistula	obl	265
+2	265	excidit	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|Voice=Act	excido	parataxis	247
+2	266	textus	NOUN	noun	Case=Nom|Gender=Masc|Number=Sing	textus	nsubj	265
+2	267	narratiuus	ADJ	adjective	Case=Nom|Gender=Masc|Number=Sing	narratiuus	amod	266
+2	268	,	PUNCT	punc		,	punct	275
+2	269	qui	PRON	pronoun	Case=Nom|Gender=Masc|Number=Sing	qui	nsubj	275
+2	270	\'librum	PUNCT	noun		\'librum	obj	275
+2	271	Ualentis	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	ualeo	nmod	270
+2	272	et	CCONJ	conjunction		et	cc	273
+2	273	Ualentis\	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Ualentis\	conj	271
+2	274	'	PUNCT	punc		'	punct	270
+2	275	interpretabatur	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin|Voice=Pass	interpretor	acl:relcl	266
+2	276	,	PUNCT	punc		,	punct	277
+2	277	cf	ADV	conjunction		cf	conj	247
+2	278	.	PUNCT	punc		.	punct	277
+2	279	Studien	NOUN	noun	Case=Nom|Gender=Masc|Number=Plur	studien	ROOT	279
+2	280	Illlsq	ADJ	adjective		Illlsq	nmod	279
+2	281	.	PUNCT	punc		.	punct	280
+2	282	)	PUNCT	punc		)	punct	285
+2	283	=	PUNCT	punc		=	punct	285
+2	284	Ser.	PUNCT	noun		Ser.	punct	283
+2	285	B	NOUN	NOUN		Bornellum	ROOT	285
+2	286	VIII	NUM	number		VIII	nummod	285
+2	287	(	PUNCT	punc		(	punct	289
+2	288	supra	ADV	adverb		supra	advmod	289
+2	289	p.	PUNCT	punc		p.	punct	285
+2	290	174—177	NUM	number		174—177	nummod	289
+2	291	)	PUNCT	punc		)	punct	285
+2	292	.	PUNCT	punc		.	punct	285
+2	293	x	PUNCT	number		x	ROOT	293
+2	294	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	advcl	293
+2	295	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	293
+2	296	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	conj	293
+2	297	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	advcl	293
+3	0	LIBER	NOUN	noun		lIBER	ROOT	0
+3	1	III	NUM	number		III	nummod	0
+3	2	.(scriptus	PUNCT	noun		.(scriptus	punct	0
+3	3	a.	PUNCT	punc		a.	obl	2
+3	4	367	NUM	number		367	nummod	3
+3	5	)	PUNCT	punc		)	punct	0
+3	6	.	PUNCT	punc		.	punct	0
+3	7	x	NUM	number		x	nsubj	24
+3	8	∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	7
+3	9	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	7
+3	10	∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗	conj	7
+3	11	∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗∗	conj	7
+3	12	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗	conj	7
+3	13	∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗	conj	7
+3	14	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Fem|Number=Sing	∗∗∗∗∗∗∗	conj	7
+3	15	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	conj	7
+3	16	synodi	NOUN	noun	Case=Gen|Gender=Fem|Number=Sing	synodus	nmod	15
+3	17	Parisiensis	ADJ	adjective	Case=Gen|Gender=Fem|Number=Sing	Parisiensus	amod	16
+3	18	ad	ADP	preposition		ad	case	19
+3	19	episcopos	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	episcopus	nmod	15
+3	20	Orientales	ADJ	adjective	Case=Acc|Gender=Masc|Number=Plur	orientalis	amod	19
+3	21	=	PUNCT	punc		=	punct	22
+3	22	Ser.	PUNCT	noun		Ser.	punct	7
+3	23	A	ADP	preposition		a	case	24
+3	24	I	NUM	number		I	ROOT	24
+3	25	(	PUNCT	punc		(	punct	27
+3	26	supra	ADV	adverb		supra	advmod	27
+3	27	p.	PUNCT	punc		p.	punct	24
+3	28	43—46	NUM	number		43—46	nummod	27
+3	29	)	PUNCT	punc		)	punct	24
+3	30	.	PUNCT	punc		.	punct	24
+3	31	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗x	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗x	nsubj	43
+3	32	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	31
+3	33	Eusebii	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Eusebius	nmod	32
+3	34	episcopi	NOUN	noun	Case=Gen|Gender=Masc|Number=Sing	episcopus	nmod	33
+3	35	Uercellensis	ADJ	adjective	Case=Gen|Gender=Masc|Number=Sing	Uercellensis	amod	34
+3	36	ad	ADP	preposition		ad	case	37
+3	37	Gregorium	PROPN	proper_noun	Case=Acc|Gender=Masc|Number=Sing	Gregorius	nmod	32
+3	38	episcopum	NOUN	noun	Case=Acc|Gender=Masc|Number=Sing	episcopus	appos	37
+3	39	Eliberitanum	VERB	proper_noun	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	Eliberitanus	nmod	38
+3	40	=	PUNCT	punc		=	punct	41
+3	41	Ser.	PUNCT	noun		Ser.	punct	31
+3	42	A	ADP	preposition		a	case	43
+3	43	II	NUM	number		II	ROOT	43
+3	44	(	PUNCT	punc		(	punct	46
+3	45	supra	ADV	adverb		supra	advmod	46
+3	46	p	NOUN	proper_noun		p	nmod	43
+3	47	,	PUNCT	punc		,	punct	49
+3	48	46	NUM	number		46	nummod	49
+3	49	sq	NOUN	proper_noun		sq	conj	46
+3	50	.	PUNCT	punc		.	punct	49
+3	51	)	PUNCT	punc		)	punct	77
+3	52	.	PUNCT	punc		.	punct	51
+3	53	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	case	51
+3	54	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	punct	53
+3	55	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	53
+3	56	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	53
+3	57	∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗	conj	53
+3	58	∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗	conj	53
+3	59	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	conj	53
+3	60	∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	53
+3	61	Epistulae	NOUN	noun	Case=Nom|Gender=Fem|Number=Plur	Epistula	nmod	53
+3	62	duae	NUM	number	Case=Nom|Gender=Fem|Number=Plur	duo	nummod	61
+3	63	de	ADP	preposition		de	case	65
+3	64	reconciliandis	VERB	verb	Case=Abl|Gender=Masc|Mood=Gdv|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Pass	reconcilio	acl	65
+3	65	episcopis	NOUN	noun	Case=Abl|Gender=Masc|Number=Plur	episcopus	obl	66
+3	66	lapsis	VERB	verb	Case=Abl|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	labor	acl	61
+3	67	=	PUNCT	punc		=	punct	68
+3	68	Ser.	PUNCT	noun		Ser.	punct	53
+3	69	H	NOUN	NOUN		h	punct	53
+3	70	IV	NUM	number		IV	nummod	69
+3	71	(	PUNCT	punc		(	punct	73
+3	72	supra	ADV	adverb		supra	advmod	73
+3	73	p.	PUNCT	punc		p.	punct	53
+3	74	156—159	NUM	number		156—159	nummod	73
+3	75	)	PUNCT	punc		)	punct	53
+3	76	.	PUNCT	punc		.	punct	53
+3	77	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	ROOT	77
+3	78	∗	PUNCT	adverb		∗	punct	77
+3	79	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	conj	77
+3	80	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	conj	77
+3	81	∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗	conj	77
+3	82	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	conj	77
+3	83	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	conj	77
+3	84	∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗	conj	77
+3	85	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	conj	77
+3	86	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	conj	77
+3	87	∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗	conj	77
+3	88	De	ADP	preposition		De	case	89
+3	89	Germinio	NOUN	noun	Case=Abl|Gender=Neut|Number=Sing	Germinium	nmod	77
+3	90	episcopo	NOUN	noun	Case=Dat|Gender=Masc|Number=Sing	episcopus	nmod	89
+3	91	Sirmiensi	ADJ	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Sirmiensi	amod	90
+3	92	:	PUNCT	punc		:	punct	77
+3	93	Ex	ADP	preposition		Ex	case	94
+3	94	epistula	NOUN	noun	Case=Abl|Gender=Fem|Number=Sing	epistula	ROOT	94
+3	95	Germinii	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Germinium	nmod	94
+3	96	ad	ADP	preposition		ad	case	97
+3	97	episcopos	NOUN	noun	Case=Acc|Gender=Masc|Number=Plur	episcopus	nmod	94
+3	98	Arianos	ADJ	noun	Case=Acc|Gender=Masc|Number=Plur	Arianus	amod	97
+3	99	:	PUNCT	punc		:	punct	94
+3	100	symbolum	NOUN	noun	Case=Nom|Gender=Neut|Number=Sing	symbolum	ROOT	100
+3	101	Germinii	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Germinium	nmod	100
+3	102	(	PUNCT	punc		(	punct	103
+3	103	excidit	VERB	verb	Mood=Ind|Number=Sing|Person=3|Tense=Perf|VerbForm=Fin|Voice=Act	excido	parataxis	100
+3	104	ipsa	DET	determiner	Case=Nom|Gender=Fem|Number=Sing	ipse	det	105
+3	105	epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	nsubj	103
+3	106	,	PUNCT	punc		,	punct	107
+3	107	cf	ADV	adverb		cf	parataxis	103
+3	108	.	PUNCT	punc		.	punct	107
+3	109	Studien	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Studien	ROOT	109
+3	110	I	NUM	number		I	nummod	109
+3	111	103	NUM	number		103	nummod	110
+3	112	)	PUNCT	punc		)	punct	109
+3	113	=	PUNCT	punc		=	punct	114
+3	114	Ser.	PUNCT	noun		Ser.	case	109
+3	115	A	ADP	preposition		a	case	116
+3	116	III	NUM	number		III	nummod	109
+3	117	(	PUNCT	punc		(	punct	121
+3	118	supra	ADV	adverb		supra	advmod	120
+3	119	p.	PUNCT	punc		p.	punct	118
+3	120	47	NUM	number		47	nummod	121
+3	121	sq	NOUN	proper_noun		sq	nmod	109
+3	122	.	PUNCT	punc		.	punct	121
+3	123	)	PUNCT	punc		)	punct	125
+3	124	.	PUNCT	punc		.	punct	123
+3	125	∗	PUNCT	adverb		∗	ROOT	125
+3	126	∗∗∗∗	ADV	adverb		∗∗∗∗	conj	125
+3	127	∗	PUNCT	adverb		∗	conj	125
+3	128	w	NOUN	NOUN		w	conj	125
+3	129	∗	PUNCT	adverb		∗	conj	125
+3	130	∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗	conj	125
+3	131	∗∗∗∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗∗∗∗	conj	125
+3	132	∗∗∗∗∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗∗∗∗∗	conj	125
+3	133	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	125
+3	134	Ualentis	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	ualeo	nmod	133
+3	135	,	PUNCT	punc		,	punct	136
+3	136	Ursacii	PROPN	noun	Case=Gen|Gender=Masc|Number=Sing	Ursacius	conj	134
+3	137	,	PUNCT	punc		,	punct	138
+3	138	Gaii	PROPN	adjective	Case=Gen|Gender=Masc|Number=Sing	Gaius	conj	134
+3	139	et	CCONJ	conjunction		et	cc	140
+3	140	Pauli	PROPN	proper_noun	Case=Gen|Gender=Masc|Number=Sing	Paulus	conj	134
+3	141	ad	ADP	preposition		ad	case	142
+3	142	Germinium	NOUN	noun	Case=Acc|Gender=Neut|Number=Sing	Germinium	nmod	133
+3	143	=	PUNCT	punc		=	punct	144
+3	144	Ser.	PUNCT	noun		Ser.	punct	125
+3	145	B	NOUN	NOUN		Bornellum	advmod	125
+3	146	V	NUM	number		V	nummod	145
+3	147	(	PUNCT	punc		(	punct	149
+3	148	supra	ADV	adverb		supra	advmod	149
+3	149	p.	PUNCT	punc		p.	punct	125
+3	150	159	NUM	number		159	nummod	151
+3	151	sq	NOUN	proper_noun		sq	nmod	125
+3	152	.	PUNCT	punc		.	punct	151
+3	153	)	PUNCT	punc		)	punct	170
+3	154	.	PUNCT	punc		.	punct	153
+3	155	∗	PUNCT	adverb		∗	nsubj	170
+3	156	∗	NOUN	conjunction	Case=Nom|Gender=Neut|Number=Sing	∗	punct	155
+3	157	∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗	conj	155
+3	158	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	conj	155
+3	159	∗∗∗∗∗	ADV	adverb		∗∗∗∗∗	case	155
+3	160	Epistula	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	epistula	appos	159
+3	161	Germinii	NOUN	noun	Case=Gen|Gender=Neut|Number=Sing	Germinium	nmod	160
+3	162	ad	ADP	preposition		ad	case	163
+3	163	Kufianum	NOUN	proper_noun	Case=Acc|Gender=Neut|Number=Sing	Kufianus	nmod	160
+3	164	,	PUNCT	punc		,	punct	165
+3	165	Palladium	NOUN	noun	Case=Acc|Gender=Neut|Number=Sing	palladium	conj	163
+3	166	et	CCONJ	conjunction		et	cc	167
+3	167	ceteros	DET	adjective	Case=Acc|Gender=Masc|Number=Plur	ceterus	conj	163
+3	168	=	PUNCT	punc		=	case	169
+3	169	Ser.	PUNCT	noun		Ser.	punct	155
+3	170	B	NOUN	NOUN		Bornellum	acl:relcl	178
+3	171	VI	NUM	number		uis	nummod	170
+3	172	(	PUNCT	punc		(	punct	174
+3	173	supra	ADV	adverb		supra	advmod	174
+3	174	p.	NOUN	punc		p.	punct	170
+3	175	160—164	NUM	number		160—164	nummod	174
+3	176	)	PUNCT	punc		)	punct	170
+3	177	.	PUNCT	punc		.	punct	170
+3	178	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	ADV	adverb		∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	ROOT	178
+3	179	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	NOUN	adverb	Case=Nom|Gender=Neut|Number=Sing	∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗∗	nmod	178
+3	180	LXV	ADJ	number		LXV	amod	178
+3	181	.	PUNCT	punc		.	punct	180
+3	182	Hilarius	PROPN	proper_noun	Case=Nom|Gender=Masc|Number=Sing	Hilarius	nmod	183
+3	183	pars	NOUN	noun	Case=Nom|Gender=Fem|Number=Sing	pars	ROOT	183
+3	184	4	NUM	number		4	nummod	183
+3	185	.	PUNCT	punc		.	punct	184
+3	186	Fed	NOUN	noun		Fed	ROOT	186
+3	187	er	NOUN	noun		er	nmod	186
+3	188	.	PUNCT	punc		.	punct	187
+3	189	13	NUM	number		13	nummod	187
